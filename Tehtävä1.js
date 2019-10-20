@@ -78,5 +78,5 @@ class Urheilija extends Person{
    
     
 }
-
-var mike = new Urheilija("Mike", "Hannigan", "Mike", "1984", "www.imgur.com", 75, "basketball", "League Championship");
+const year = new Date('1984');
+var mike = new Urheilija("Mike", "Hannigan", "Mike", year, "www.imgur.com", 75, "basketball", "League Championship");
